@@ -37,6 +37,7 @@ def backtest_basic_strategy(
     entry_time = None
 
     equity = 0.0
+    print("Starting backtest...")
 
     # walk forward candle by candle
     for i in range(min_history, len(df)):
